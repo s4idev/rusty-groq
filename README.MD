@@ -11,11 +11,11 @@ Usage
 To use the library in your project, add the following to your `Cargo.toml`:
 ```toml
 [dependencies]
-groq-rust = "0.1.0"
+rusty-groq = "0.1.0"
 ```
 Then, in your code:
 ```rust
-use groq_rust::{GroqClient, GroqError};
+use groq::{GroqClient, GroqError};
 
 #[tokio::main]
 async fn main() -> Result<(), GroqError> {
